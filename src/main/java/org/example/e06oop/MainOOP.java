@@ -1,15 +1,18 @@
 package org.example.e06oop;
 
+import org.example.e06oop.inheritance.FlyingFish;
+
 public class MainOOP {
     public static void main(String[] args) {
-        Whale whale = new Whale();
-        FlyingFish flyingfish = new FlyingFish();
-        System.out.println(whale.name);
-        whale.swimming();
-        whale.name = "돌고래";
-        System.out.println(whale.name);
+        // Whale whale = new Whale();
+        // FlyingFish flyingfish = new FlyingFish();
+        // System.out.println(whale.name);
+        // whale.swimming();
+        // whale.name = "돌고래";
+        // System.out.println(whale.name);
         //System.out.println(Whale.age);
 
+        //
         AccessModifier accessModifier = new AccessModifier();
         accessModifier.fnProtected();
 
@@ -19,5 +22,14 @@ public class MainOOP {
         System.out.println(OverloadingOOP.add(1));
         System.out.println(OverloadingOOP.add(1,2));
 
+        ConstructOOP constructoop = new ConstructOOP();
+
+        // ==============================
+        // 상속
+        FlyingFish flyingfish = new FlyingFish("날치","바다");
+        System.out.println(flyingfish.breath());
+        System.out.println(flyingfish.flying());
+        System.out.println(flyingfish.living());
+        
     }
 }
