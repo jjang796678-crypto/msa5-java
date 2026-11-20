@@ -14,4 +14,5 @@ abstract class Mammal {
     public String birth() {
         return String.format("%s이/가 출산합니다.", this.name);
     }
+
 }

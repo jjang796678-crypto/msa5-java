@@ -8,9 +8,9 @@ public class ConstructOOP {
 
     // 생성자 (construct) 메소드
     // 클래스를 인스턴스화 할 때, 최초 1회만 실행되는 메소드
-    // 주로 객페의 포기화 또는 인스턴스 생성 시, 실행되어야 할 작업을 위해 사용
+    // 주로 객체의 초기화 또는 인스턴스 생성 시, 실행되어야 할 작업을 위해 사용
 
-    // 기본 생성자 : 개발자가 생성자를 별도로 정의하지 않으면 자동으로 생설되는 생성자
+    // 기본 생성자 : 개발자가 생성자를 별도로 정의하지 않으면 자동으로 생성되는 생성자
     public ConstructOOP() {
         this("무명", 20, 'M');
     }
@@ -28,7 +28,7 @@ public class ConstructOOP {
         this.name = name;
         this.age = age;
         this.gender = gender;
-    }
 
+    }
 }
 

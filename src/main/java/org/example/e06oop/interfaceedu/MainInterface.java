@@ -12,6 +12,5 @@ public class MainInterface {
         Flight flight = new FlyingFish();
         Swim swim = new FlyingFish();
 
-
     }
 }

@@ -18,4 +18,5 @@ abstract class Fish implements Swim {
     public String swimming() {
         return String.format("%s이/가 헤엄칩니다.", this.name);
     }
+
 }

@@ -75,6 +75,7 @@ public class E05Array {
         // 배열의 API
         int[] arr3 = {1, 2, 3};
         int[] arr4 = {1, 2, 3};
+
         // 배열의 길이
         System.out.println(arr3.length);
 

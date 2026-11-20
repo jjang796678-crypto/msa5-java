@@ -1,6 +1,7 @@
 package org.example.e06oop;
 
 import org.example.e06oop.inheritance.FlyingFish;
+import org.example.e06oop.inheritance.Whale;
 
 public class MainOOP {
     public static void main(String[] args) {
@@ -12,8 +13,10 @@ public class MainOOP {
         // System.out.println(whale.name);
         //System.out.println(Whale.age);
 
-        //
+        // System.out.println(Whale.age);
         AccessModifier accessModifier = new AccessModifier();
+        System.out.println(accessModifier.strPublic);
+        accessModifier.fnPublic();
         accessModifier.fnProtected();
 
         // 오버로딩 (Overloading)
@@ -30,6 +33,10 @@ public class MainOOP {
         System.out.println(flyingfish.breath());
         System.out.println(flyingfish.flying());
         System.out.println(flyingfish.living());
+        Whale whale = new Whale("고래", "바다");
+        System.out.println(whale.breath());
+        System.out.println(whale.swimming());
+        System.out.println(whale.living());
         
     }
 }
